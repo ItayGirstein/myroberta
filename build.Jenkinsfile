@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh 'ls'
                 sh 'echo building...'
-                sh 'worked?'
+                sh 'echo worked?'
             }
         }
     }
